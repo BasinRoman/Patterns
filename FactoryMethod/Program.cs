@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod
+﻿using System;
+
+namespace FactoryMethod
 {
     internal class Program
     {
@@ -67,12 +69,23 @@
                 return new Fan1();
             }
         }
+        class Fan2Factory : IFanFactory
+        {
+            public IFan CreateFan()
+            {
+                return new Fan2();
+            }
+        }
+        // etc for 3,4, fans. 
 
         static void Main(string[] args)
         {
-            IFanFactory fanFactory = new Fan1Factory();
-            var fan1 = fanFactory.CreateFan();
-            Console.WriteLine("Hello, World!");
+            IFanFactory fan1Factory = new Fan1Factory();
+            var fan1 = fan1Factory.CreateFan();
+            IFanFactory fan2Factory = new Fan2Factory();
+            var fan2 = fan2Factory.CreateFan();
+            Console.WriteLine($"Созданы{fan1.GetType()}и {fan2.GetType()} вентилятора");
+
         }
     }
 }
