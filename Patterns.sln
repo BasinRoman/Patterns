@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFabricMethod", "Abs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactoryMethod\SimpleFactory.csproj", "{2AB78972-FE3E-4F25-9480-F761D5623AC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodV3", "FactoryMethodV3\FactoryMethodV3.csproj", "{32F4CBAB-527F-45D9-803E-24A0BF4706A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabricMethodV4", "FabricMethodV4\FabricMethodV4.csproj", "{71112A2A-BBCB-45BD-906F-63C28475C061}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{2AB78972-FE3E-4F25-9480-F761D5623AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB78972-FE3E-4F25-9480-F761D5623AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB78972-FE3E-4F25-9480-F761D5623AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F4CBAB-527F-45D9-803E-24A0BF4706A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F4CBAB-527F-45D9-803E-24A0BF4706A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F4CBAB-527F-45D9-803E-24A0BF4706A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F4CBAB-527F-45D9-803E-24A0BF4706A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71112A2A-BBCB-45BD-906F-63C28475C061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71112A2A-BBCB-45BD-906F-63C28475C061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71112A2A-BBCB-45BD-906F-63C28475C061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71112A2A-BBCB-45BD-906F-63C28475C061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
